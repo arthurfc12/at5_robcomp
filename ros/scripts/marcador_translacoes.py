@@ -77,7 +77,6 @@ if __name__=="__main__":
 
 	tfl = tf2_ros.TransformListener(tf_buffer) # Para fazer conversao de sistemas de coordenadas - usado para calcular angulo
 
-
 	try:
 		# Loop principal - todo programa ROS deve ter um
 		while not rospy.is_shutdown():
